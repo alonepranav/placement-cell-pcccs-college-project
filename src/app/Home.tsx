@@ -5,22 +5,35 @@ import HomeCompanies from '../components/HomeCompanies'
 export default function Home() {
     return (
         <div>
+            <div className="p-10">
+                <br />
+                <br />
+                <br />
+               
 
-            <AllHomeHeroComponent >
+                <div className="">
+                    <video
+                    className=''
+                    src="/about.webm" autoPlay autoFocus loop></video>
+                </div>
+
+            </div>
+
+            {/* <AllHomeHeroComponent >
                 <p className='text-2xl font-semibold'>
                     Placements at PCCCS
                 </p>
-                <p className='text-5xl font-bold mt-3 text-center leading-tight'>
+                <p className='text-5xl font-bold mt-3 leading-tight'>
                     Unlocking Your Future<br />
                     Where Careers Take Flight!
                 </p>
-            </AllHomeHeroComponent >
+            </AllHomeHeroComponent > */}
 
             {/* -------------------------------------------------------------------------------- */}
 
-            <div className="flex flex-col md:flex-row gap-10 py-20 md:px-10 lg:px-20">
+            <div className="flex flex-col md:flex-row justify-center gap-10 py-20 md:px-10 lg:px-10">
                 <div className="px-20 py-28 w-2/3">
-                    <p className='text-blue-950 font-semibold text-5xl'>Pathways to Success </p>
+                    <p className='text-blue-950 font-semibold text-6xl'>Pathways to Success </p>
                     <p className='text-lg text-stone-700 mt-5 leading-relaxed text-wrap'>
                         Placement is the culmination of a journey undertaken by our students. We feel its our priority to make sure our students achieve what they set out for. Around the year special attention is given to make sure our students excel in placement process. Pre-placement talks, CV writing workshops, Mock GD-PI sessions & spoken English lectures are organized to make our students ready for the gruelling placement process.
                     </p>
@@ -36,7 +49,7 @@ export default function Home() {
             {/* -------------------------------------------------------------------------------- */}
 
 
-            <div className="px-32 py-20 bg-stone-100">
+            <div className="px-32 py-40 bg-stone-100">
                 <p className='text-5xl font-bold text-blue-950'>Department Placement Co-Ordinators </p>
 
                 {/* <div className="flex gap-20 justify-start items-center flex-wrap mt-10"> */}

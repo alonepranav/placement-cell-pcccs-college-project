@@ -12,6 +12,7 @@ import Admin from "./app/admin/Admin"
 import AdminLogin from "./app/admin-login/AdminLogin"
 import StudentApplication from "./app/student-application/StudentApplication"
 import AddCompanies from "./app/add-companies/AddCompanies"
+import About from "./app/about/About"
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" Component={Home} />
+          <Route path="/about" Component={About} />
           <Route path="/contact" Component={Contact} />
           <Route path="/job-fair" Component={JobFair} />
           <Route path="/login" Component={Login} />

@@ -11,7 +11,7 @@ export default function PoolCampus() {
                 </p>
             </AllHomeHeroComponent >
 
-            <div className="md:px-20 lg:px-40 mx-5">
+            <div className="md:px-20 lg:px-20 mx-5">
 
                 <div className="flex justify-between items-center gap-20 flex-col md:flex-row py-20">
                     <div className=" md:w-2/3">

@@ -8,9 +8,12 @@ export default function JobFair() {
                 <p className='text-5xl font-bold mt-3 text-center leading-tight'>
                     Job Fair
                 </p>
+                <p className="text-2xl font-semibold mt-3">
+                    Activity for Placements & Internships
+                </p>
             </AllHomeHeroComponent >
 
-            <div className="md:px-20 lg:px-40 mx-5">
+            <div className="md:px-10 lg:px-20 mx-5">
 
                 <div className="flex justify-between items-center gap-20 flex-col md:flex-row py-20">
                     <div className=" md:w-2/3">
@@ -30,7 +33,7 @@ export default function JobFair() {
                     </div>
 
                     <div className="flex justify-center items-center">
-                        <img src="/job fair/jobfair.jpg" alt="" className="h-96 w-96 object-cover" />
+                        <img src="/job fair/jobfair.jpg" alt="" className="h-[30rem] w-[37rem] object-cover" />
                     </div>
                 </div>
 
