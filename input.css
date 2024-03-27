@@ -6,3 +6,7 @@
 .my-login-toggle-class {
     display: none;
 }
+
+.home-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)), url(./public/pratibha.jpg);
+}

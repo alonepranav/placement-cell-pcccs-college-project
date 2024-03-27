@@ -26,7 +26,7 @@
         <div class="md:px-10 lg:px-20 mx-5">
 
             <div class="flex justify-between items-center gap-20 flex-col md:flex-row py-20">
-                <div class=" md:w-2/3">
+                <div class="md:w-2/3">
                     <p class="text-5xl font-semibold text-blue-950 mb-7">About Job Fair</p>
                     <p class="text-stone-700 text-lg">
                         <span class="font-semibold">PRATIBHA JOB FAIR </span>

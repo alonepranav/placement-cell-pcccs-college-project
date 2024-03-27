@@ -13,6 +13,12 @@
     <?php require ("./navbar.php"); ?>
 
 
+    <?php
+    if (!isset($_SESSION["adminloggedin"]) || $_SESSION["adminloggedin"] === false) {
+        echo "<script>window.location.href='admin login.php';</script>";
+        exit;
+    }
+    ?>
 
 
     <div>
@@ -29,55 +35,63 @@
 
             <div class="mt-10">
 
-                <table class="w-full   even:bg-black border-2 border-slate-300">
+                <table class="w-full   even:bg-gray-200 border-2 border-slate-300">
                     <thead>
                         <tr>
                             <th class="text-left p-3.5">S.No</th>
                             <th class="text-left p-3.5">Name</th>
                             <th class="text-left p-3.5">Email</th>
-                            <th class="text-left p-3.5">Class</th>
+                            <th class="text-left p-3.5">Course</th>
                             <th class="text-left p-3.5">Company Name</th>
                             <th class="text-left p-3.5">Position</th>
                             <th class="text-left p-3.5">Drive Date</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="even:bg-slate-50 odd:bg-slate-200">
-                            <td class="p-3.5">
-                                <p class="text-lg ">{i + 1}</p>
-                            </td>
-                            <td class="p-3.5">
-                                <p class="text-lg ">Danny Wadje</p>
-                            </td>
-                            <td class="p-3.5">
-                                <p class="text-lg ">dnyaneshwarwadje88@gmail.com</p>
-                            </td>
-                            <td class="p-3.5">
-                                <p class="text-lg ">TY BSC (CS)</p>
-                            </td>
-                            <td class="p-3.5">
-                                <p class="text-lg ">Amazon</p>
-                            </td>
-                            <td class="p-3.5">
-                                <p class="text-lg ">Backend Developer</p>
-                            </td>
-                            <td class="p-3.5">
-                                <p class="text-lg ">2/3/4</p>
-                            </td>
-                        </tr>
+
+                        <?php
+                          $host = "localhost";
+                          $user = "id21731308_star";
+                          $password = "@Pranav173";
+                          $database = "id21731308_placement";
+
+                        $mysqli = new mysqli($host, $user, $password, $database);
+
+                        if ($mysqli->connect_error) {
+                            die("Connection failed: " . $mysqli->connect_error);
+                        }
+
+                        // Fetch application data from the database
+                        $sql = "SELECT name, email, course, company, date, position FROM applications";
+                        $result = $mysqli->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            $i = 0;
+                            while ($row = $result->fetch_assoc()) {
+                                $i++;
+                                echo '<tr class="' . ($i % 2 == 0 ? 'even:bg-slate-50' : 'odd:bg-slate-200') . '">';
+                                echo '<td class="p-3.5"><p class="text-lg">' . $i . '</p></td>';
+                                echo '<td class="p-3.5"><p class="text-lg">' . $row["name"] . '</p></td>';
+                                echo '<td class="p-3.5"><p class="text-lg">' . $row["email"] . '</p></td>';
+                                echo '<td class="p-3.5"><p class="text-lg">' . $row["course"] . '</p></td>';
+                                echo '<td class="p-3.5"><p class="text-lg">' . $row["company"] . '</p></td>';
+                                echo '<td class="p-3.5"><p class="text-lg">' . $row["date"] . '</p></td>';
+                                echo '<td class="p-3.5"><p class="text-lg">' . $row["position"] . '</p></td>';
+                                echo '</tr>';
+                            }
+                        } 
+
+                        // Close database connection
+                        $mysqli->close();
+                        ?>
+
                     </tbody>
                 </table>
 
 
             </div>
         </div>
-
-   <p class='text-3xl font-semibold px-20'>No student present</p> 
-
     </div>
-
-
-
 
 
     <?php require ("./footer.php"); ?>

@@ -16,9 +16,12 @@
     <div>
 
         <div
-            className='bg-[url(./public/hero.webp)] h-96 bg-center bg-cover flex flex-col justify-center items-center text-white mt-[4.5rem]'>
+            class='bg-[url(./public/hero.webp)] h-96 bg-center bg-cover flex flex-col justify-center items-center text-white mt-[4.5rem]'>
             <p class='text-5xl font-bold mt-3 text-center leading-tight'>
                 Pool Campus
+            </p>
+            <p class="text-2xl font-semibold mt-3">
+                Placement Drive and Pre-Placement Session
             </p>
         </div>
 

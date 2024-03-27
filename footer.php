@@ -42,7 +42,7 @@
         <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Contact</a>
         <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Job Fair</a>
         <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300"></a>
-        <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Admin</a>
+        <a href="admin.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Admin</a>
       </div>
     </div>
     <div class="">
