@@ -7,7 +7,7 @@ $database = "id21731308_placement";
 
 // $host = "localhost";
 // $user = "root";
-// $password = "";
+// $password = ""; 
 // $database = "placement";
 
 $mysqli = new mysqli($host, $user, $password, $database);
