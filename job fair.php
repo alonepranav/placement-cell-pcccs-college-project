@@ -12,6 +12,7 @@
 
     <?php require ("./navbar.php"); ?>
 
+
     <div>
 
         <div class='bg-[url(./public/hero.webp)] h-96 bg-center bg-cover flex flex-col justify-center items-center text-white mt-[4.5rem]'>

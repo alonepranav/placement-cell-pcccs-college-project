@@ -1,23 +1,14 @@
 <?php
+include("./ConnectDB.php");
+    ?>
+
+<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $host = "localhost";
-    $user = "id21731308_star";
-    $password = "@Pranav173";
-    $database = "id21731308_placement";
-
-
-    // Establish database connection
-    $mysqli = new mysqli($host, $user, $password, $database);
-
-    // Check for database connection errors
-    if ($mysqli->connect_error) {
-        die("Connection failed: " . $mysqli->connect_error);
-    }
+    global $mysqli;
 
     $name = $email = $course = $password = "";
     $name_err = $email_err = $course_err = $password_err = "";
 
-    // Validate and process form data
     if (empty(trim($_POST["name"]))) {
         $name_err = "Please enter your name.";
     } else {

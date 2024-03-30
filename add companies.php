@@ -1,20 +1,16 @@
 <?php
+include ("./ConnectDB.php");
+?>
+
+
+<?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $position = $_POST['position'];
     $date = $_POST['date'];
 
-    $host = "localhost";
-    $user = "id21731308_star";
-    $password = "@Pranav173";
-    $database = "id21731308_placement";
-
-    $mysqli = new mysqli($host, $user, $password, $database);
-
-    if ($mysqli->connect_error) {
-        die("Connection failed: " . $mysqli->connect_error);
-    }
+    global $mysqli;
 
     $sql = "INSERT INTO companies (name, position, date) VALUES (?, ?, ?)";
     $stmt = $mysqli->prepare($sql);
@@ -50,6 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
     <?php require ("./navbar.php"); ?>
+
 
     <?php
     if (!isset($_SESSION["adminloggedin"]) || $_SESSION["adminloggedin"] === false) {

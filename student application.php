@@ -1,3 +1,8 @@
+<?php 
+    include("./ConnectDB.php")
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +18,7 @@
     <?php require ("./navbar.php"); ?>
 
 
+
     <?php
     if (!isset($_SESSION["adminloggedin"]) || $_SESSION["adminloggedin"] === false) {
         echo "<script>window.location.href='admin login.php';</script>";
@@ -24,14 +30,16 @@
     <div>
         <div class='py-10 px-20'>
 
-            <div class="text-3xl font-semibold tracking-wider">
-                <p>Admin</p>
-            </div>
-
+     
+        <div class="mt-20">
+            <p class="text-3xl font-semibold"><a href="admin.php" class="text-blue-600 underline">Admin</a>  / Student Application</p>
+        </div>
+<!-- 
             <div class="mt-10 flex gap-5">
+
                 <a href='admin.php' class='px-6 py-1.5 bg-blue-600 rounded-md text-white font-semibold'>Admin</a>
                 <a href='' class='px-6 py-1.5 bg-amber-500 rounded-md text-white font-semibold'>Refresh</a>
-            </div>
+            </div> -->
 
             <div class="mt-10">
 
@@ -50,18 +58,8 @@
                     <tbody>
 
                         <?php
-                          $host = "localhost";
-                          $user = "id21731308_star";
-                          $password = "@Pranav173";
-                          $database = "id21731308_placement";
+                        global $mysqli;
 
-                        $mysqli = new mysqli($host, $user, $password, $database);
-
-                        if ($mysqli->connect_error) {
-                            die("Connection failed: " . $mysqli->connect_error);
-                        }
-
-                        // Fetch application data from the database
                         $sql = "SELECT name, email, course, company, date, position FROM applications";
                         $result = $mysqli->query($sql);
 
@@ -79,7 +77,7 @@
                                 echo '<td class="p-3.5"><p class="text-lg">' . $row["position"] . '</p></td>';
                                 echo '</tr>';
                             }
-                        } 
+                        }
 
                         // Close database connection
                         $mysqli->close();

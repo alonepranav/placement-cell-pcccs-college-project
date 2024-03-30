@@ -13,6 +13,7 @@
     <?php require ("./navbar.php"); ?>
 
 
+
     <div class="">
         <br />
         <br />
@@ -46,7 +47,7 @@
                 </p>
             </div>
             <div class="">
-                <video src="./public/about.webm" class="h-80" autoplay loop></video>
+                <video src="https://pcccs.org.in/wp-content/uploads/2023/07/Untitled-design.webm" class="h-80" autoplay loop></video>
             </div>
         </div>
 

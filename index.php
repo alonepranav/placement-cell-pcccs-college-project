@@ -1,3 +1,7 @@
+<?php
+include ("./ConnectDB.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,39 +17,26 @@
 
     <?php require ("./navbar.php"); ?>
 
+
     <!-- --------------------------------------------------------------------------------------- -->
 
     <div>
 
+        <!-- 
         <div class="h-screen w-screen home-bg flex justify-center items-center bg-cover bg-center">
             <div class="flex flex-col justify-center items-center text-white">
                 <p class="text-7xl font-bold tracking-wider">Placement Cell PCCCS</p>
                 <p class="mt-9 text-2xl font-semibold">Pratibha College of Commerce and Computer Studies</p>
             </div>
-        </div>
+        </div> -->
 
-        <!-- <div class="">
-            <br />
-            <br />
-            <br />
-
+        <div class="">
             <div class="">
                 <video class="elementor-video"
                     src="https://pcccs.org.in/wp-content/uploads/2023/07/Untitled-design.webm" autoplay="" loop
                     muted="muted" playsinline="" controlslist="nodownload"></video>
             </div>
-        </div> -->
-
-
-
-
-
-
-
-
-
-
-
+        </div>
 
         <div class="flex flex-col md:flex-row justify-center gap-10 py-20">
             <div class="px-20 py-28 w-2/3">
@@ -63,53 +54,33 @@
             </div>
         </div>
 
-
-
         <div class="">
             <div class="py-20">
                 <p class="text-4xl underline text-center font-semibold">Upcoming Companies</p>
             </div>
             <div class="flex justify-center items-center gap-10 flex-wrap px-20">
-
                 <?php
-                $host = "localhost";
-                $user = "id21731308_star";
-                $password = "@Pranav173";
-                $database = "id21731308_placement";
-                
-                $mysqli = new mysqli($host, $user, $password, $database);
+                global $mysqli;
 
-                if ($mysqli->connect_error) {
-                    die("Connection failed: " . $mysqli->connect_error);
-                }
-
-                $sql = "SELECT name, position FROM companies";
+                $sql = "SELECT name, position,date FROM companies";
                 $result = $mysqli->query($sql);
 
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
                         echo '<div class="h-40 w-80 shadow-lg shadow-slate-200 border-2 border-slate-300 rounded-md p-5 flex justify-center flex-col items-center gap-4">';
                         echo '<p class="text-3xl font-semibold">' . $row["name"] . '</p>';
-                        echo '<p class="text-lg font-semibold px-7 py-1.5 rounded-md text-white bg-amber-400 cursor-pointer shadow-md shadow-slate-300">' . $row["position"] . '</p>';
+                        echo '<p class="text-base font-semibold px-7 py-1 rounded-md text-white bg-amber-300 cursor-pointer shadow-md shadow-slate-200">' . $row["position"] . '</p>';
+                        echo '<p class="text-sm font-semibold"> Drive Date : ' . $row["date"] . '</p>';
                         echo '</div>';
                     }
-                } 
-
+                }
                 $mysqli->close();
                 ?>
-
-
-
-
-
             </div>
         </div>
 
         <br>
         <br>
-        <br>
-        <br>
-
 
         <div class="px-32 py-40 bg-stone-100">
             <p class='text-5xl font-bold text-blue-950'>Department Placement Co-Ordinators </p>

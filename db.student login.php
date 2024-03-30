@@ -1,11 +1,13 @@
+<?php 
+    include("./ConnectDB.php")
+?>
+
+
 <?php
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $host = "localhost";
-    $user = "id21731308_star";
-    $password = "@Pranav173";
-    $database = "id21731308_placement";
+    global $mysqli;
 
     $mysqli = new mysqli($host, $user, $password, $database);
 

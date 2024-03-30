@@ -1,4 +1,9 @@
 <?php
+include ("./ConnectDB.php");
+?>
+
+
+<?php
 session_start();
 
 // Check if the request method is POST
@@ -13,17 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $drive_date = $_POST["drive_date"];
     $position = $_POST["position"];
 
-    // Database connection
-    $host = "localhost";
-    $user = "id21731308_star";
-    $password = "@Pranav173";
-    $database = "id21731308_placement";
-
-    $mysqli = new mysqli($host, $user, $password, $database);
-
-    if ($mysqli->connect_error) {
-        die("Connection failed: " . $mysqli->connect_error);
-    }
+    global $mysqli;
 
     // Insert application data into the database
     $sql = "INSERT INTO applications (name, email, course, company, position, date) VALUES (?, ?, ?, ?, ?, ?)";

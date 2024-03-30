@@ -1,3 +1,8 @@
+<?php
+include("./ConnectDB.php");
+    ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +16,7 @@
 <body>
 
     <?php require ("./navbar.php"); ?>
+
 
 
     <?php
@@ -29,8 +35,13 @@
                     <?php echo $_SESSION["name"]; ?> |
                     <?php echo $_SESSION["course"]; ?>
                 </p>
-                <button id="logoutBtn" class="font-semibold text-white rounded-md bg-rose-500 px-8 py-2 text-lg">Log
-                    Out</button>
+                <div class="flex gap-8 items-center">
+                    <button id="logoutBtn" class="font-semibold text-white rounded-md bg-rose-500 px-6 py-1.5">Log
+                        Out</button>
+                        <a href="my applications.php">
+                            <button id="sadasd" class="font-semibold text-white rounded-md bg-sky-500 px-6 py-1.5">My Applications</button>
+                        </a>
+                    </div>
             </div>
         </div>
 
@@ -46,16 +57,7 @@
 
 
                 <?php
-                $host = "localhost";
-                $user = "id21731308_star";
-                $password = "@Pranav173";
-                $database = "id21731308_placement";
-
-                $mysqli = new mysqli($host, $user, $password, $database);
-
-                if ($mysqli->connect_error) {
-                    die("Connection failed: " . $mysqli->connect_error);
-                }
+                global $mysqli;
 
                 $sql = "SELECT name, date, position FROM companies";
                 $result = $mysqli->query($sql);
