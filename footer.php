@@ -14,10 +14,10 @@
         <img src="./public/logo.webp" class='h-16 w-16' alt="" />
         <p class='text-4xl font-semibold text-white'>PCCCS</p>
       </div>
-      <!-- <p class='mt-3'>
+      <p class='mt-3'>
         Block D- III, Plot no. 3, Behind Mehta Hospital,
         Off Pune Mumbai Road Chinchwad Station, Pune, Maharashtra 411019
-      </p> -->
+      </p>
 
       <div class="mt-3">
         <p class='flex gap-3 items-center mt-2'>
