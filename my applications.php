@@ -52,7 +52,7 @@ if (isset($_POST['delete_application'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Applications</title>
+    <title>Placement-PCCCS</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Placement-PCCCS</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 
@@ -59,24 +59,30 @@
                 <p class="text-5xl font-semibold text-blue-950 mb-7 text-center md:text-left">Analysis - Job Fair
                 </p>
                 <br />
-                <br />
-                <br />
+              
                 <div class="flex justify-center md:justify-start items-center flex-wrap gap-10 md:gap-14">
                     <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2">
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Companies-Participited1.png" target="_blank">
                         <img class="h-72 w-72" src="./public/job fair/analysis 1.png" alt="" />
+                        </a>
                         <p class="text-2xl">Companies Participated</p>
                     </div>
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2">
-                        <img class="h-72 w-72" src="./public/job fair/analysis 1.png" alt="" />
-                        <p class="text-2xl">Companies Participated</p>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2"> 
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Number-Of-Job-Opening.png" target="_blank">
+                        <img class="h-72 w-72" src="./public/job fair/analysis 2.png" alt="" /></a>
+                        <p class="text-2xl">Number of Job Openings</p>
                     </div>
                     <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2">
-                        <img class="h-72 w-72" src="./public/job fair/analysis 1.png" alt="" />
-                        <p class="text-2xl">Companies Participated</p>
+                    <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Shortlisted-Most-likeley-to-be-Placed.png" target="_blank">
+                        <img class="h-72 w-72" src="./public/job fair/analysis 3.png" alt="" />
+                        </a>
+                        <p class="text-2xl">Shortlisted & Most likeley to be Placed</p>
                     </div>
                     <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2">
-                        <img class="h-72 w-72" src="./public/job fair/analysis 1.png" alt="" />
-                        <p class="text-2xl">Companies Participated</p>
+                    <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Total-Students-Registration.png" target="_blank">
+                        <img class="h-72 w-72" src="./public/job fair/analysis 4.png" alt="" />
+                        </a>
+                        <p class="text-2xl">Total Students Registration</p>
                     </div>
                 </div>
             </div>
@@ -87,13 +93,19 @@
                 <div class="flex gap-10 justify-center md:justify-start">
 
                     <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                    <a href="https://pcccs.org.in/wp-content/uploads/2023/07/PJF-CR_2017-1.pdf "
+                    target="_blank">
                         <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" />
+                        </a>
                         <p class="text-2xl">Report 2017</p>
                     </div>
 
                     <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                    <a href="https://pcccs.org.in/wp-content/uploads/2023/07/PJF_CR_2019-1.pdf "
+                    target="_blank">
                         <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" />
-                        <p class="text-2xl">Report 2017</p>
+                        </a>
+                        <p class="text-2xl">Report 2019</p>
                     </div>
                 </div>
 

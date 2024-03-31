@@ -60,6 +60,7 @@
         <a href="about.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">About</a>
         <a href="contact.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Contact</a>
         <a href="job fair.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Job Fair</a>
+        <a href="pool campus.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Pool Campus</a>
         <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300"></a>
         <a href="admin.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Admin</a>
         <a href=""></a>
