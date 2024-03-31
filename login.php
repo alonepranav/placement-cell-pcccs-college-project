@@ -67,9 +67,9 @@
                     <select class="bg-gray-50 p-2 placeholder:text-stone-800 border border-slate-600 rounded w-full"
                         name="course">
                         <option value="">Select Option</option>
-                        <option value="Ty">TY BSC CS</option>
-                        <option value="Sy">SY BSC CS</option>
-                        <option value="Fy">FY BSC CS</option>
+                        <option value="TY BSC CS">TY BSC CS</option>
+                        <option value="SY BSC CS">SY BSC CS</option>
+                        <option value="FY BSC CS">FY BSC CS</option>
                     </select>
                 </div>
                 <div class="mt-2">

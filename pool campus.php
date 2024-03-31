@@ -60,30 +60,29 @@
 
                 <div class="flex flex-wrap gap-10 justify-center md:justify-start">
                     <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
-                    <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2016-17.pdf "
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2016-17.pdf " target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
                         <p class="text-2xl">Poster-2016-17</p>
                     </div>
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2017-18.pdf "
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2017-18.pdf " target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
                         <p class="text-2xl">Poster-2017-18</p>
                     </div>
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2018-19.pdf "
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2018-19.pdf " target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
                         <p class="text-2xl">Poster-2018-19</p>
                     </div>
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2019-20.pdf "
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2019-20.pdf " target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
                         <p class="text-2xl">Poster-2019-20</p>
                     </div>
 
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2020-21.pdf "
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/Poster-2020-21.pdf " target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /></a>
                         <p class="text-2xl">Poster-2020-21</p>
                     </div>
                 </div>
@@ -93,28 +92,32 @@
             <div class="mt-20">
                 <p class="text-5xl font-semibold text-center md:text-left text-blue-950 mb-7">PPC Overall</p>
                 <div class="flex flex-wrap gap-10 justify-center md:justify-start">
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2017-18-Overall.pdf"
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
-                        <p class="text-2xl">Report 2017-2018</p>
-                    </div>
-                    
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2018-19-Overall.pdf"
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
-                        <p class="text-2xl">Report 2018-2019</p>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2017-18-Overall.pdf"
+                            target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
+                                <p class="text-2xl">Report 2017-2018</p>
                     </div>
 
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2019-20-Overall.pdf"
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
-                        <p class="text-2xl">Report 2019-2020</p>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2018-19-Overall.pdf"
+                            target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
+                                <p class="text-2xl">Report 2018-2019</p>
                     </div>
 
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2020-21-Overall.pdf"
-                    target="_blank">
-                        <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
-                        <p class="text-2xl">Report 2020-2021</p>
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2019-20-Overall.pdf"
+                            target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
+                                <p class="text-2xl">Report 2019-2020</p>
+                    </div>
+
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a
+                            href="https://pcccs.org.in/wp-content/uploads/2023/07/POOL-CAMPUS-2020-21-Overall.pdf"
+                            target="_blank">
+                            <img class="h-40 w-52" src="./public/pdf-icon.jpg" alt="" /><a>
+                                <p class="text-2xl">Report 2020-2021</p>
                     </div>
                 </div>
             </div>
@@ -123,42 +126,54 @@
             <div class="mt-20">
                 <p class="text-5xl font-semibold text-center md:text-left text-blue-950 mb-7">Analysis</p>
                 <div class="flex flex-wrap gap-10 md:gap-14 justify-center md:justify-start">
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Overall-Pool-Campus-Statistics.png" target="_blank">
-                        <img class="h-60 w-80" src="./public/pool campus/1.png" alt="" />
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Overall-Pool-Campus-Statistics.png"
+                            target="_blank">
+                            <img class="h-60 w-80" src="./public/pool campus/1.png" alt="" />
                         </a>
                         <p class="text-2xl">Over all Statistics</p>
                     </div>
-                    
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2016-17.png" target="_blank">
-                        <img class="h-60 w-80" src="./public/pool campus/2.png" alt="" />
+
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2016-17.png"
+                            target="_blank">
+                            <img class="h-60 w-80" src="./public/pool campus/2.png" alt="" />
                         </a>
                         <p class="text-2xl">Campus Drive 2016-2017</p>
                     </div>
-                    
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2017-18.png" target="_blank">
-                        <img class="h-60 w-80" src="./public/pool campus/3.png" alt="" />
+
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2017-18.png"
+                            target="_blank">
+                            <img class="h-60 w-80" src="./public/pool campus/3.png" alt="" />
                         </a>
                         <p class="text-2xl">Campus Drive 2017-2018</p>
                     </div>
-                    
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2018-19.png" target="_blank">
-                        <img class="h-60 w-80" src="./public/pool campus/4.png" alt="" />
+
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2018-19.png"
+                            target="_blank">
+                            <img class="h-60 w-80" src="./public/pool campus/4.png" alt="" />
                         </a>
                         <p class="text-2xl">Campus Drive 2018-2019</p>
                     </div>
-                    
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2019-20.png" target="_blank">
-                        <img class="h-60 w-80" src="./public/pool campus/5.png" alt="" />
+
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.-2019-20.png"
+                            target="_blank">
+                            <img class="h-60 w-80" src="./public/pool campus/5.png" alt="" />
                         </a>
                         <p class="text-2xl">Campus Drive 2019-2020</p>
                     </div>
-                    
-                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit"><a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.2020-21.png" target="_blank">
-                        <img class="h-60 w-80" src="./public/pool campus/1.png" alt="" />
+
+                    <div class="flex flex-col gap-5 items-center border-2 border-slate-300 rounded-md p-2 w-fit">
+                        <a href="https://pcccs.org.in/wp-content/uploads/2023/07/Pool-Campus-Drive-A.Y.2020-21.png"
+                            target="_blank">
+                            <img class="h-60 w-80" src="./public/pool campus/1.png" alt="" />
                         </a>
                         <p class="text-2xl">Campus Drive 2020-2021</p>
                     </div>
-                    
+
 
                 </div>
             </div>
