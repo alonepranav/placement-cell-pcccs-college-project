@@ -9,7 +9,7 @@
 
 ## Project Images:  
 
-<img src="./preview/1.png" alt="Image 1"/>
+<img src="./preview/1.png" alt="Image 1"/> 
 
 <hr/>
 <img src="./preview/2.png" alt="Image 2"/>
