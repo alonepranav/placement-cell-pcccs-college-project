@@ -1,4 +1,4 @@
-# Placement Cell PCCCS
+# Placement Cell PCCCS -college project
 
 ### This is our college project developed by  [@PranavShilavane](https://www.instagram.com/pranavshilavane/) and [@DnyaneshwarWadje](https://www.instagram.com/dnyaneshwarwadje88/). 
 
