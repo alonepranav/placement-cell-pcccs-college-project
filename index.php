@@ -38,7 +38,7 @@ include ("./ConnectDB.php");
             </div>
         </div>
 
-        <div class="flex flex-col md:flex-row justify-center gap-10 py-20">
+        <div class="flex flex-col md:flex-row justify-center gap-10 pt-20 pb-10">
             <div class="px-20 py-28 w-2/3">
                 <p class='text-blue-950 font-semibold text-6xl'>Pathways to Success </p>
                 <p class='text-lg text-stone-700 mt-5 leading-relaxed text-wrap'>
@@ -79,8 +79,11 @@ include ("./ConnectDB.php");
             </div>
         </div>
 
-        <br>
-        <br>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
         <div class="px-32 py-40 bg-stone-100">
             <p class='text-5xl font-bold text-blue-950'>Department Placement Co-Ordinators </p>

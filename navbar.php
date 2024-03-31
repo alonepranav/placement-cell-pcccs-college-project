@@ -24,9 +24,9 @@
         nav_ul_a.forEach((a) => {
             if (location.pathname.replace("%20", " ").includes(a.getAttribute("href")) ||
                 (a.getAttribute("href") == "index.php" && location.pathname.endsWith("/")))
-                a.setAttribute("class", "capitalize text-xl font-bold underline")
+                a.setAttribute("class", "capitalize text-xl font-semibold underline")
             else
-                a.setAttribute("class", "capitalize text-xl text-black")
+                a.setAttribute("class", "capitalize text-xl text-stone-500")
         });
     }
 
@@ -41,6 +41,6 @@
     const nav_ul = document.querySelector(".nav-ul")
 
     links.reverse().forEach((a) => {
-        nav_ul.insertAdjacentHTML("afterbegin", `<a  href="${a}">${a === "index.php" ? "home" : a.replace(".php", "")}</a>`)
+        nav_ul.insertAdjacentHTML("afterbegin", `<a class="capitalize text-xl"  href="${a}">${a === "index.php" ? "home" : a.replace(".php", "")}</a>`)
     })
 </script>
