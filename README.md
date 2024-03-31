@@ -7,7 +7,7 @@
 
 ### Live Project Link : [ click here ](http://starpranav.000webhostapp.com/pcccs-project/index.php)
 
-## Project Images: 
+## Project Images:  
 
 <img src="./preview/1.png" alt="Image 1"/>
 
