@@ -8,7 +8,7 @@ include ("./ConnectDB.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Placement-PCCCS</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -95,31 +95,32 @@ include ("./ConnectDB.php");
                     <p class='text-2xl font-semibold'>Prof. Harshita Vachhani </p>
                     <p class='text-slate-700'>Training and Placement Officer
                         Program Co-ordinator (Comp.Sci.) </p>
-                    <a class='text-blue-900 font-semibold mt-1 block' href='#'>harshitavachhani@pratibhagroup.org.in</a>
+                    <a class='text-blue-900 font-semibold mt-1 block' href="mailto:harshitavachhani@pratibhagroup.org.in">harshitavachhani@pratibhagroup.org.in</a>
                 </div>
 
                 <div class="">
                     <p class='text-2xl font-semibold'>Prof. Hanumant Koli </p>
                     <p class='text-slate-700'>Program Co-ordinator (BBA -IB)</p>
-                    <a class='text-blue-900 font-semibold mt-1 block' href='#'>hanumanta.pibm@pratibhagroup.org.in</a>
+                    <a href="mailto:hanumanta.pibm@pratibhagroup.org.in">hanumanta.pibm@pratibhagroup.org.in</a>
                 </div>
 
                 <div class="">
                     <p class='text-2xl font-semibold'>Prof. Dinesh Lahori </p>
                     <p class='text-slate-700'>Assistant Professor </p>
-                    <a class='text-blue-900 font-semibold mt-1 block' href='#'>dineshlahori@pratibhagroup.org.in</a>
+                    <a href="mailto:dineshlahori@pratibhagroup.org.in">dineshlahori@pratibhagroup.org.in</a>
                 </div>
 
                 <div class="">
                     <p class='text-2xl font-semibold'>Prof. Anuradha Godke </p>
                     <p class='text-slate-700'>Prof. Anuradha Godke </p>
-                    <a class='text-blue-900 font-semibold mt-1 block' href='#'>anuradhaghodke@pratibhagroup.org.in</a>
+                    <a href="mailto:anuradhaghodke@pratibhagroup.org.in">anuradhaghodke@pratibhagroup.org.in</a>
                 </div>
 
                 <div class="">
                     <p class='text-2xl font-semibold'>Prof. Poonam Bora </p>
                     <p class='text-slate-700'>Assistant Professor </p>
-                    <a class='text-blue-900 font-semibold mt-1 block' href='#'>poonamkankariya@pratibhagroup.org.in</a>
+                    <a
+                        href="mailto:poonamkankariya@pratibhagroup.org.in">poonamkankariya@pratibhagroup.org.in</a>
                 </div>
 
             </div>

@@ -21,16 +21,33 @@
 
       <div class="mt-3">
         <p class='flex gap-3 items-center mt-2'>
-          <i class="bi bi-telephone-fill"></i>
-          <span>8600100945</span>
+          
+    <a href="tel:+91%208600100945">
+
+
+<i class="bi bi-telephone-fill"></i>
+
+</a>
+
+          
         </p>
         <p class='flex gap-3 items-center mt-2'>
-          <i class="bi bi-telephone-fill"></i>
-          <span>8600100945</span>
+          
+    <a href="tel:+91%207276011411">
+
+
+<i class="bi bi-telephone-fill"></i>
+
+</a>
+
         </p>
         <p class='flex gap-3 items-center mt-2'>
-          <i class="bi bi-envelope-fill"></i>
-          <span>asdjnajskdkasjb.com</span>
+          
+    <a href="mailto:Info@kes.org.in">
+
+<i class="bi bi-envelope-fill"></i>
+
+</a>
         </p>
       </div>
 
@@ -39,12 +56,13 @@
       <p class="text-2xl tracking-wide font-semibold">Links</p>
       <br />
       <div class="flex flex-col gap-2 text-lg">
-        <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Home</a>
-        <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">About</a>
-        <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Contact</a>
-        <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Job Fair</a>
+        <a href="index.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Home</a>
+        <a href="about.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">About</a>
+        <a href="contact.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Contact</a>
+        <a href="job fair.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Job Fair</a>
         <a href="" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300"></a>
         <a href="admin.php" class="hover:ml-2 block transition-all font-semibold hover:text-slate-300">Admin</a>
+        <a href=""></a>
       </div>
     </div>
     <div class="">
