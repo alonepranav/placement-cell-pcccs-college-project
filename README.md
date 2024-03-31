@@ -28,6 +28,4 @@
 
 <hr/>
 <img src="./preview/8.png" alt="Image 8"/>
-
-<hr/>
-<img src="./preview/9.png" alt="Image 9"/>
+ 
