@@ -12,7 +12,7 @@ include ("./ConnectDB.php");
     <title>Placement-PCCCS</title>
     <link rel="stylesheet" href="./main.css">
 </head>
-
+ 
 <body>
 
     <?php require ("./navbar.php"); ?>
